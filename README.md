@@ -58,11 +58,13 @@ Create a single-board Thunderbolt 4 dock with:
 
 | Component | Model / Notes |
 |-----------|---------------|
-| TB4 Controller | Intel JHL8540 |
-| USB Hub | Microchip USB2517B (3 USB-C + 4 USB-A) |
-| PD Controller | TI TPS65987DDJ |
+| TB4 Controller | ASM2464PD |
+| USB Hub | 2x CYUSB3304-68LTXC |
+| ~~PD Controller~~ | ~~TI TPS65987DDJ~~ |
 | Voltage Regulators | Switching / Linear as required |
 | Optional PCIe Switch | TBD (for lane allocation flexibility) |
+
+https://files.slop.gay/pub/docs/Asmedia/ASM2464PD-X/
 
 ---
 
