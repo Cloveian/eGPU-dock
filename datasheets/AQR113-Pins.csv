@@ -1,0 +1,83 @@
+Pin Name,7x11 format Pin Number(s),7x7 format Pin Number(s),Pin Type,Description
+INT_N,L8,G2,OD,Open-drain interrupt signal
+ADDR0,F8,,I,MDIO PHY address select
+ADDR1,M7,,I,MDIO PHY address select
+ADDR2,K8,,I,MDIO PHY address select
+ADDR3,M5,H5,I,MDIO PHY address select
+MDC,J8,E1,I,MDIO clock input
+MDIO,H8,D2,I/O,MDIO bidirectional data line
+RST_OUT_N,K3,H7,OD,Open-drain reset output
+RST_N,F3,H2,I,Hard reset input
+VDD_IO_1P8_SELECT_N,H3,F1,I,1.8V/3.3V IO select
+
+CE_N,F2,C6,O,SPI chip enable / TX_DC_RST_N
+SCLK,E1,C8,O,SPI clock / RX_DC_SOF
+SIN,D1,F7,I,SPI input / RX_DC_DATA
+SOUT,F1,C7,O,SPI output / RX_DC_CLK
+
+TX_DC_CLK,E4,,O,Daisy chain transmit clock
+TX_DC_DATA,E6,,O,Daisy chain transmit data
+DC_MASTER_N,G7,,I,Daisy-chain mode control
+RX_DC_RST_N,E5,,I,Daisy-chain receive reset
+TX_DC_SOF,D6,,O,Daisy chain start-of-frame
+
+RX_P,N2,G1,I,SerDes Lane0 RX+
+RX_N,N3,H1,I,SerDes Lane0 RX-
+TX_P,N6,H8,O,SerDes Lane0 TX+
+TX_N,N5,G8,O,SerDes Lane0 TX-
+
+A_P,C1,B1,I/O,MDI Pair A positive
+A_N,B1,B2,I/O,MDI Pair A negative
+B_P,A2,A1,I/O,MDI Pair B positive
+B_N,A3,A2,I/O,MDI Pair B negative
+C_P,A6,A8,I/O,MDI Pair C positive
+C_N,A5,A7,I/O,MDI Pair C negative
+D_P,A8,B8,I/O,MDI Pair D positive
+D_N,B8,B7,I/O,MDI Pair D negative
+
+XTAL_SELECT_N,K7,F8,I,Clock source select
+XTAL_I,E8,D8,I,50MHz crystal/LVDS input
+XTAL_O,D8,E8,O,50MHz crystal output
+SYNC_1588,E2,D1,I,PTP sync input
+CLK_1588_P,H1,,I,PTP external clock +
+CLK_1588_N,G1,,I,PTP external clock -
+CLKO_50M_A,G8,C3,O,Recovered clock A
+CLKO_50M_B,K4,D3,O,Recovered clock B
+CLK50M_SELECT_N,K5,,I,Clock frequency select
+
+LED0,H2,D6,O,LED output 0
+LED1,G2,F3,O,LED output 1
+LED2,G3,G6,O,LED output 2
+
+RREF_BG,B7,B5,Analog,Bandgap reference resistor 2kΩ
+
+TCK,M1,C2,I,JTAG clock
+TDI,L1,G7,I,JTAG data input
+TDO,K1,H3,O,JTAG data output
+TRST_N,J3,H4,I,JTAG reset (active low)
+TMS,J2,C1,I,JTAG mode select
+
+SMB_DAT,M8,G4,I/O,Debug SMBus data
+SMB_CLK,L7,E2,I/O,Debug SMBus clock
+
+AVDD10,C6 D5,B4,Power,1.0V analog supply
+AVDD20,C4 D3,A5,Power,2.0V analog supply
+AVSS,A1 A4 A7 B2 B3 B5 B6 C3 C5 C8 D4 D7,A3 A6 B3 B6,Power,Analog ground
+AVSS_PLL,B4,A4,Power,PLL ground
+VDD,C2 C7 F5 F7 G4 G6 H5 H7 J4 J6 L3,C5 D4 E3 E5 F4,Power,0.7V digital supply
+VDD_IO,M6,F2 F6,Power,IO supply
+VSS,E3 E7 F4 F6 G5 H4 H6 J5 L2 L6,C4 D5 E4 E6 F5,Power,Digital ground
+VSS_SRDS,M2 M3 N1 N4 N7,,Power,SerDes ground
+V10_SRDS,L5,G5,Power,SerDes 1.0V supply
+V20_SRDS,M4,G3,Power,SerDes 2.0V supply
+RNC_J1,J1,,NC,Reserved no-connect signal
+RNC_J7,J7,,NC,Reserved no-connect signal
+RNC_K6,K6,,NC,Reserved no-connect signal
+RNC_D7,,D7,NC,Reserved no-connect signal
+RNC_H6,,H6,NC,Reserved no-connect signal
+RG_D2,D2,,Power,Reserved ground signal.
+RG_N8,N8,,Power,Reserved ground signal.
+RG_E7,,E7,Power,Reserved ground signal.
+NC,K2 L4,,Floating,These pins are floating
+
+,,,,
