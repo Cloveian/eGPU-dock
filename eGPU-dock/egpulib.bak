@@ -1945,7 +1945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "eGPUlib:AQR113C-AQR114C-AQR115C"
 			(at 0 0 0)
 			(effects
 				(font
