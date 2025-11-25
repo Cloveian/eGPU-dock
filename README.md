@@ -85,7 +85,7 @@ Create a single-board Thunderbolt 4 dock with:
 
 ## Data Flow
 
-![Data Flow Chart](/images/dataflow.png.png)
+![Data Flow Chart](/images/dataflow.png)
 
 ---
 <!-- 
