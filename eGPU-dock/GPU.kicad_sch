@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fa6895c7-f9c9-404e-ae72-fedf1853f139")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.67 21.59)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31ea9b0f-fae3-4689-99eb-d7c56cc06233")
+		(property "Sheetname" "GPU1"
+			(at 26.67 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPU1.kicad_sch"
+			(at 26.67 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eGPU-dock"
+				(path "/8f0f92a2-cb20-4d7d-abbf-7fcc4a39a6af/18b00291-09c0-4176-82b1-d9b336b3566b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 21.59)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74a21231-940b-48e1-abb5-a5ef234459ff")
+		(property "Sheetname" "GPU2"
+			(at 58.42 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPU2.kicad_sch"
+			(at 58.42 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eGPU-dock"
+				(path "/8f0f92a2-cb20-4d7d-abbf-7fcc4a39a6af/18b00291-09c0-4176-82b1-d9b336b3566b"
+					(page "4")
+				)
+			)
+		)
+	)
+)
