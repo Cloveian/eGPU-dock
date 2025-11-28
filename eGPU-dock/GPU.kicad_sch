@@ -89,4 +89,46 @@
 			)
 		)
 	)
+	(sheet
+		(at 90.17 21.59)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a96fa695-a4dc-452b-9ff0-17de37e7ed1e")
+		(property "Sheetname" "GPU3"
+			(at 90.17 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPU3.kicad_sch"
+			(at 90.17 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eGPU-dock"
+				(path "/8f0f92a2-cb20-4d7d-abbf-7fcc4a39a6af/18b00291-09c0-4176-82b1-d9b336b3566b"
+					(page "5")
+				)
+			)
+		)
+	)
 )
